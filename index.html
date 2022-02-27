@@ -39,14 +39,15 @@
         /></a>
       </div>-->
 <!--Nav Bar boostrap-->
-      <nav class="navbar navbar-expand-lg navbar-light" class="col-sm-4">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon" href="index.html">
-              <img
-                src="images/samsung_logo.png"
-                alt="samsung logo"
-            /></span>
-          </button>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="index.html">
+      <img
+        src="images/samsung_logo.png"
+        alt="samsung logo"/>
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -66,7 +67,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="../pages/aboutus.html">About us</a>
               </li>
-
             </ul>
           </div>
         </div>
@@ -76,6 +76,42 @@
     </header>
     <!--Main content-->
     <main>
+       <!--Carousel-->
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Main_KV_Home.png" class="d-block w-100" alt="...">
+            <h1>Reserve your place in line <br> for the Freestyle</h1>
+            <p class="p_white">Meet The Freestyle - the Samsung Smart TV experience,<br> with no boundaries</p>
+            <button class="button button_Main_KV"><a href="#" target="_blank">Pre-order</a></button>
+            <button type="button" class="btn-close" disabled aria-label="Close"></button>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Image_kv2.png" class="d-block w-100" alt="...">
+            <h3>Pre order The Freestyle</h3>
+            <p class="p_kv2_black">Rececive complementary Galaxy Buds Live.<br> Plus, claim a complimantary travel case.</p>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Image_kv3.jpg" class="d-block w-100" alt="...">
+            <h3>Visit the Bespoke studio <br> for a virtual showroom experience</h3>
+            <p class="p_kv3_black">Plus, free delivery and installation available.</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--
       <section class="hero__image">
          <img class="kv_img" class="img-fluid"
           src="images/Main_KV_Home.png"
@@ -85,7 +121,7 @@
         />
         <h1><small>Reserve your place in line <br> for the Freestyle</small></h1>
         <button> <a href="#" target="_blank">Pre-order</a></button>
-      </section>
+      </section>-->
     <!--Section 2-->
     <section class="container">
         <div class="row">
