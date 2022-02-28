@@ -43,30 +43,23 @@ nav ul li a:hover {
   font-weight: bold;
 }*/
 
-#carouselExampleIndicators {
-  position: relative;
+#carouselExampleCaptions {
   margin: 10px;
   padding-bottom: 20px;
   padding: 20px;
 }
 
-.carousel-item {
-  width: 100%;
+.carousel-inner {
   height: 500px;
 }
 
-.carousel-item h1 {
-  position: absolute;
-  font-weight: 700;
-  font-size: 2rem;
+.carousel-caption {
   color: white;
   font-style: 2rem;
   top: 150px;
-  left: 5%;
 }
 
-.carousel-item h3 {
-  position: absolute;
+.carousel-caption h3 {
   font-weight: 700;
   font-size: 2rem;
   color: black;
@@ -75,34 +68,30 @@ nav ul li a:hover {
   left: 5%;
 }
 
-.carousel-item .p_white {
-  position: absolute;
+.carousel-caption.p_white {
   font-style: 1rem;
   color: white;
   top: 240px;
   left: 5%;
 }
 .carousel-item .p_kv2_black {
-  position: absolute;
   font-style: 1rem;
   color: black;
   top: 200px;
   left: 5%;
 }
 .carousel-item .p_kv3_black {
-  position: absolute;
   font-style: 1rem;
   color: black;
   top: 240px;
   left: 5%;
 }
 
-.hero__image button {
-  position: absolute;
-  top: 240px;
+.carousel-caption button {
+  top: 300px;
   left: 5%;
   width: 80px;
-  height: 30px;
+  height: 25px;
   font-weight: 800;
   font-family: "open-sans", sans-serif;
   border-radius: 40px;
@@ -111,18 +100,18 @@ nav ul li a:hover {
   transition: all 0.5s ease;
 }
 
-.carousel-item .button_Main_KV {
+.carousel-caption a {
   font-weight: normal;
   color: black;
   list-style: none;
   text-decoration: none;
 }
-.carousel-item .button_Main_KV a:hover {
+carousel-caption a:hover {
   font-weight: 800;
   color: white;
 }
 
-.carousel-item .button_Main_KV:hover {
+carousel-caption a:hover {
   background-color: #505050;
 }
 
