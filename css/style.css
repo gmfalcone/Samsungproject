@@ -115,6 +115,13 @@ carousel-caption a:hover {
   background-color: #505050;
 }
 
+@media screen and (max-width: 500px) {
+  .main_kv {
+    background: url(../videos/Main-KV_720x1080_mo.webm);
+    width: 100%;
+    height: auto;
+  }
+}
 #cards {
   display: flex;
   justify-content: space-around;
